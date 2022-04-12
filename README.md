@@ -62,7 +62,7 @@ $ yarn prisma migrate dev
 $ yarn start
 
 # watch mode
-$ startc start:dev
+$ yarn start:dev
 
 # production mode
 $ yarn start:prod
