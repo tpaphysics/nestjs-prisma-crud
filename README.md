@@ -19,7 +19,7 @@
 
 ## Descrição
 
-Nessa postagem criamos um CRUD utilizando o framework [Nest](https://nestjs.com/) para criar, deletar, pesquisar e atualizar uma tabela de usuários em um banco de dados. O Nest tem se mostrado um framework poderoso para criação de APIs, neste post usamos também o [Prisma](https://www.prisma.io/) como ORM.
+Nessa postagem criamos um CRUD utilizando o framework [Nest](https://nestjs.com/) para criar, deletar, pesquisar e atualizar uma tabela de usuários em um banco de dados. Usamos também o [Prisma](https://www.prisma.io/) como ORM. O Nest tem se mostrado um framework poderoso para criação de APIs. 
 
 Criamos um schema bem simples no arquivo <strong>schema.prisma</strong> para criação de um usuário no banco de dados:
 
