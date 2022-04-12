@@ -52,7 +52,7 @@ $ yarn
 $ yarn dev:db
 
 # Migração dos models definidos no schema.prisma para o banco de dados
-$ yarn prisma migration dev
+$ yarn prisma migrate dev
 ```
 
 ## Iniciando o servidor
@@ -67,6 +67,12 @@ $ startc start:dev
 # production mode
 $ yarn start:prod
 ```
+## Observação
+
+```bash
+# Para remover o container criado: 
+$ yarn dev:rm
+```  
 
 ## **👨‍🚀 Autor**
 
