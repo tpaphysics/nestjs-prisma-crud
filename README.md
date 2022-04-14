@@ -19,7 +19,7 @@
 
 ## Descrição
 
-Nessa postagem criamos um CRUD utilizando o framework [Nest](https://nestjs.com/) para criar, deletar, pesquisar e atualizar uma tabela de usuários em um banco de dados. Usamos também o [Prisma](https://www.prisma.io/) como ORM. O Nest tem se mostrado um framework poderoso para criação de APIs. 
+Nessa postagem criamos um CRUD utilizando o framework [Nest](https://nestjs.com/) para criar, deletar, pesquisar e atualizar uma tabela de usuários em um banco de dados. O Nest tem se mostrado um framework poderoso para criação de APIs. Usamos também o [Prisma](https://www.prisma.io/) como ORM e criamos um container com o banco de dados postgres usando o [Docker Compose](https://docs.docker.com/compose/).
 
 Criamos um schema bem simples no arquivo <strong>schema.prisma</strong> para criação de um usuário no banco de dados:
 
@@ -48,7 +48,7 @@ Mapped {/users/:id, DELETE} route +1ms
 # Instalação das dependências
 $ yarn
 
-# Iniciar container com banco de dados postgress:
+# Iniciar container com banco de dados postgress (Você precisa ter o docker instalado!):
 $ yarn dev:db
 
 # Migração dos models definidos no schema.prisma para o banco de dados
